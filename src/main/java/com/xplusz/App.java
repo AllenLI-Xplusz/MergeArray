@@ -14,16 +14,16 @@ public class App
         public Set<String> mergearray(Set<String> setA, Set<String> setB)
         {
 
-            Set<String> setIntersection = new HashSet<String>();
+            Set<String> set = new HashSet<String>();
             String s = "";
             Iterator<String> iterA = setA.iterator();
             while (iterA.hasNext()) {
                 s = iterA.next();
                 if (setB.contains(s)) {
-                    setIntersection.add(s);
+                    set.add(s);
                 }
             }
-            return setIntersection;
+            return set;
         }
 
 
