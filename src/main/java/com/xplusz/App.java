@@ -36,9 +36,6 @@ public class App
     public static void main( String[] args )
     {
              App a1=new App();
-             int a[]=new int[10];
-
-                 int b[]=new int[10];
 
         Set  set1=new HashSet();
         set1.add("1");
